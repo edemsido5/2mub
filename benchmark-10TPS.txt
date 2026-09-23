@@ -1,0 +1,132 @@
+◇ injected env (2) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+
+============================================================
+             2MUB V5 - BENCHMARK
+============================================================
+
+Target TPS                  : 10
+Durée                       : 30 s
+Transactions prévues       : 300
+Sponsors maximum            : 20
+Max broadcast simultanés   : 100
+Timeout transaction         : 120 s
+Retry nonce                 : 3
+Gas limit                   : 250000
+CSV global                  : benchmark-10TPS.csv
+CSV détaillé                : benchmark-10TPS-details.csv
+
+Comptes disponibles         : 50
+Sponsors utilisés           : 20
+
+Déploiement du contrat...
+Contrat déployé             : 0x2B0d36FACD61B71CC05ab8F3D2355ec3631C0dd5
+
+Enregistrement des sponsors...
+20 sponsors enregistrés.
+
+Gas price                  : 1000000007
+
+Synchronisation des nonces...
+0x70997970C51812dc3A010C7d01b50e0d17dc79C8 -> nonce 0
+0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC -> nonce 0
+0x90F79bf6EB2c4f870365E785982E1f101E93b906 -> nonce 0
+0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 -> nonce 0
+0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc -> nonce 0
+0x976EA74026E726554dB657fA54763abd0C3a0aa9 -> nonce 0
+0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 -> nonce 0
+0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f -> nonce 0
+0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 -> nonce 0
+0xBcd4042DE499D14e55001CcbB24a551F3b954096 -> nonce 0
+0x71bE63f3384f5fb98995898A86B02Fb2426c5788 -> nonce 0
+0xFABB0ac9d68B0B445fB7357272Ff202C5651694a -> nonce 0
+0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec -> nonce 0
+0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097 -> nonce 0
+0xcd3B766CCDd6AE721141F452C550Ca635964ce71 -> nonce 0
+0x2546BcD3c84621e976D8185a91A922aE77ECEc30 -> nonce 0
+0xbDA5747bFD65F08deb54cb465eB87D40e51B197E -> nonce 0
+0xdD2FD4581271e230360230F9337D5c0430Bf44C0 -> nonce 0
+0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 -> nonce 0
+0x09DB0a93B389bEF724429898f539AEB7ac2Dd55f -> nonce 0
+
+============================================================
+             PHASE 1 : GÉNÉRATION DE CHARGE
+============================================================
+
+Charge générée : 50/300
+Charge générée : 100/300
+Charge générée : 150/300
+Charge générée : 200/300
+Charge générée : 250/300
+Charge générée : 300/300
+
+Génération terminée.
+Temps génération           : 29.913 s
+TPS offert                  : 10.03
+
+Attente de la fin des broadcasts RPC...
+
+Transactions soumises      : 300/300
+Erreurs nonce               : 0
+Erreurs RPC                 : 0
+
+============================================================
+                PHASE 2 : DRAINAGE
+============================================================
+
+Transactions à surveiller : 300
+Confirmations : 300/300 | Restantes : 0
+
+============================================================
+                    RESULTATS
+============================================================
+
+Palier cible              : 10 TPS
+Durée demandée            : 30 s
+Transactions demandées    : 300
+Transactions soumises     : 300
+Transactions réussies     : 300
+Transactions échouées     : 0
+Taux de réussite          : 100.00 %
+
+--------------- DEBIT ----------------
+TPS offert                : 10.03
+TPS confirmé             : 9.83
+TPS confirmation/drain   : 514.58
+
+--------------- TEMPS ----------------
+Temps génération          : 29.913 s
+Temps drainage            : 0.583 s
+Temps total               : 30.504 s
+
+--------------- LATENCE --------------
+Min                       : 591.00 ms
+P50                       : 15245.50 ms
+Moyenne                   : 15262.03 ms
+P95                       : 28467.60 ms
+P99                       : 29623.09 ms
+Max                       : 29927.00 ms
+
+--------------- GAS ------------------
+Gas min                   : 184986
+Gas moyen                 : 185016.32
+Gas max                   : 185022
+
+--------------- BLOCS ----------------
+Blocs utilisés            : 15
+Transactions/bloc         : 20.00
+
+--------------- ERREURS --------------
+Erreurs RPC               : 0
+Erreurs nonce             : 0
+Timeouts                  : 0
+Max broadcasts simultanés : 1
+
+============================================================
+                    FIN DU TEST
+============================================================
+
+CSV global       : benchmark-10TPS.csv
+CSV détaillé     : benchmark-10TPS-details.csv
+

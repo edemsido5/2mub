@@ -1,0 +1,130 @@
+◇ injected env (2) from .env // tip: ⌘ enable debugging { debug: true }
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+
+=================================================
+2MUB V2 - PERFORMANCE BENCHMARK
+MobileMoneyCompensationV2
+=================================================
+
+Target TPS              : 10
+Duration                : 30s
+Max sponsors            : 20
+Max submit in-flight    : 100
+Transaction timeout     : 120s
+Polling interval        : 200ms
+Nonce retries           : 3
+Gas limit               : 250000
+
+[1/7] Deploying MobileMoneyCompensationV2...
+Contract deployed at: 0xeF31027350Be2c7439C1b0BE022d49421488b72C
+
+[2/7] Registering sponsors...
+  Registered Sponsor-1: 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+  Registered Sponsor-2: 0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC
+  Registered Sponsor-3: 0x90F79bf6EB2c4f870365E785982E1f101E93b906
+  Registered Sponsor-4: 0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65
+  Registered Sponsor-5: 0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc
+  Registered Sponsor-6: 0x976EA74026E726554dB657fA54763abd0C3a0aa9
+  Registered Sponsor-7: 0x14dC79964da2C08b23698B3D3cc7Ca32193d9955
+  Registered Sponsor-8: 0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f
+  Registered Sponsor-9: 0xa0Ee7A142d267C1f36714E4a8F75612F20a79720
+  Registered Sponsor-10: 0xBcd4042DE499D14e55001CcbB24a551F3b954096
+  Registered Sponsor-11: 0x71bE63f3384f5fb98995898A86B02Fb2426c5788
+  Registered Sponsor-12: 0xFABB0ac9d68B0B445fB7357272Ff202C5651694a
+  Registered Sponsor-13: 0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec
+  Registered Sponsor-14: 0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097
+  Registered Sponsor-15: 0xcd3B766CCDd6AE721141F452C550Ca635964ce71
+  Registered Sponsor-16: 0x2546BcD3c84621e976D8185a91A922aE77ECEc30
+  Registered Sponsor-17: 0xbDA5747bFD65F08deb54cb465eB87D40e51B197E
+  Registered Sponsor-18: 0xdD2FD4581271e230360230F9337D5c0430Bf44C0
+  Registered Sponsor-19: 0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199
+  Registered Sponsor-20: 0x09DB0a93B389bEF724429898f539AEB7ac2Dd55f
+
+[3/7] Reading network fee configuration...
+Gas price: 1000000007
+
+[4/7] Initializing sponsor nonces...
+  0x70997970C51812dc3A010C7d01b50e0d17dc79C8 -> nonce 2265
+  0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC -> nonce 2265
+  0x90F79bf6EB2c4f870365E785982E1f101E93b906 -> nonce 2266
+  0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 -> nonce 2266
+  0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc -> nonce 2265
+  0x976EA74026E726554dB657fA54763abd0C3a0aa9 -> nonce 2266
+  0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 -> nonce 2266
+  0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f -> nonce 2266
+  0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 -> nonce 2264
+  0xBcd4042DE499D14e55001CcbB24a551F3b954096 -> nonce 2264
+  0x71bE63f3384f5fb98995898A86B02Fb2426c5788 -> nonce 2264
+  0xFABB0ac9d68B0B445fB7357272Ff202C5651694a -> nonce 2264
+  0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec -> nonce 2264
+  0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097 -> nonce 2265
+  0xcd3B766CCDd6AE721141F452C550Ca635964ce71 -> nonce 2265
+  0x2546BcD3c84621e976D8185a91A922aE77ECEc30 -> nonce 2265
+  0xbDA5747bFD65F08deb54cb465eB87D40e51B197E -> nonce 2264
+  0xdD2FD4581271e230360230F9337D5c0430Bf44C0 -> nonce 2266
+  0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 -> nonce 2266
+  0x09DB0a93B389bEF724429898f539AEB7ac2Dd55f -> nonce 2265
+
+[5/7] Preparing workload...
+Total transactions: 300
+
+[6/7] Starting open-loop workload...
+
+Generation completed.
+Generation duration : 29.910 s
+Offered TPS          : 10.03
+Submitted            : 300/300
+
+[7/7] Waiting for confirmations...
+
+=================================================
+2MUB V2 BENCHMARK RESULTS
+=================================================
+Target TPS              : 10
+Duration                : 30s
+Total transactions      : 300
+Offered TPS             : 10.03
+Submitted               : 300
+Confirmed               : 300
+Failed                  : 0
+Success rate            : 100.00 %
+Confirmed TPS           : 9.94
+Drain TPS               : 1158.30
+Generation duration     : 29.910 s
+Drain duration          : 0.259 s
+Total duration          : 30.169 s
+
+LATENCY
+Min                     : 204.00 ms
+P50                     : 1247.00 ms
+Average                 : 1207.54 ms
+P95                     : 2045.50 ms
+P99                     : 2264.78 ms
+Max                     : 2365.00 ms
+
+GAS
+Min                     : 207592.00
+Average                 : 207623.16
+Max                     : 207628.00
+
+BLOCKS
+Blocks used             : 15
+Transactions/block      : 20.00
+
+ERRORS
+RPC errors              : 0
+Nonce errors            : 0
+Timeouts                : 0
+
+CONCURRENCY
+Configured max submit   : 100
+Observed max submit     : 26
+
+Contract address        : 0xeF31027350Be2c7439C1b0BE022d49421488b72C
+=================================================
+
+Global CSV  : benchmark-v2-10TPS.csv
+Details CSV : benchmark-v2-10TPS-details.csv
+
+Benchmark completed successfully.
+

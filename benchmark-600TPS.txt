@@ -1,0 +1,500 @@
+◇ injected env (2) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ override existing { override: true }
+◇ injected env (0) from .env // tip: ⌘ suppress logs { quiet: true }
+
+============================================================
+             2MUB V5 - BENCHMARK
+============================================================
+
+Target TPS                  : 600
+Durée                       : 30 s
+Transactions prévues       : 18000
+Sponsors maximum            : 20
+Max broadcast simultanés   : 100
+Timeout transaction         : 120 s
+Retry nonce                 : 3
+Gas limit                   : 250000
+CSV global                  : benchmark-600TPS.csv
+CSV détaillé                : benchmark-600TPS-details.csv
+
+Comptes disponibles         : 50
+Sponsors utilisés           : 20
+
+Déploiement du contrat...
+Contrat déployé             : 0x02b0B4EFd909240FCB2Eb5FAe060dC60D112E3a4
+
+Enregistrement des sponsors...
+20 sponsors enregistrés.
+
+Gas price                  : 1000000008
+
+Synchronisation des nonces...
+0x70997970C51812dc3A010C7d01b50e0d17dc79C8 -> nonce 615
+0x3C44CdDdB6a900fa2b585dd299e03d12FA4293BC -> nonce 615
+0x90F79bf6EB2c4f870365E785982E1f101E93b906 -> nonce 615
+0x15d34AAf54267DB7D7c367839AAf71A00a2C6A65 -> nonce 615
+0x9965507D1a55bcC2695C58ba16FB37d819B0A4dc -> nonce 615
+0x976EA74026E726554dB657fA54763abd0C3a0aa9 -> nonce 615
+0x14dC79964da2C08b23698B3D3cc7Ca32193d9955 -> nonce 615
+0x23618e81E3f5cdF7f54C3d65f7FBc0aBf5B21E8f -> nonce 615
+0xa0Ee7A142d267C1f36714E4a8F75612F20a79720 -> nonce 615
+0xBcd4042DE499D14e55001CcbB24a551F3b954096 -> nonce 615
+0x71bE63f3384f5fb98995898A86B02Fb2426c5788 -> nonce 615
+0xFABB0ac9d68B0B445fB7357272Ff202C5651694a -> nonce 615
+0x1CBd3b2770909D4e10f157cABC84C7264073C9Ec -> nonce 615
+0xdF3e18d64BC6A983f673Ab319CCaE4f1a57C7097 -> nonce 615
+0xcd3B766CCDd6AE721141F452C550Ca635964ce71 -> nonce 615
+0x2546BcD3c84621e976D8185a91A922aE77ECEc30 -> nonce 615
+0xbDA5747bFD65F08deb54cb465eB87D40e51B197E -> nonce 615
+0xdD2FD4581271e230360230F9337D5c0430Bf44C0 -> nonce 615
+0x8626f6940E2eb28930eFb4CeF49B2d1F2C9C1199 -> nonce 615
+0x09DB0a93B389bEF724429898f539AEB7ac2Dd55f -> nonce 615
+
+============================================================
+             PHASE 1 : GÉNÉRATION DE CHARGE
+============================================================
+
+Charge générée : 50/18000
+Charge générée : 100/18000
+Charge générée : 150/18000
+Charge générée : 200/18000
+Charge générée : 250/18000
+Charge générée : 300/18000
+Charge générée : 350/18000
+Charge générée : 400/18000
+Charge générée : 450/18000
+Charge générée : 500/18000
+Charge générée : 550/18000
+Charge générée : 600/18000
+Charge générée : 650/18000
+Charge générée : 700/18000
+Charge générée : 750/18000
+Charge générée : 800/18000
+Charge générée : 850/18000
+Charge générée : 900/18000
+Charge générée : 950/18000
+Charge générée : 1000/18000
+Charge générée : 1050/18000
+Charge générée : 1100/18000
+Charge générée : 1150/18000
+Charge générée : 1200/18000
+Charge générée : 1250/18000
+Charge générée : 1300/18000
+Charge générée : 1350/18000
+Charge générée : 1400/18000
+Charge générée : 1450/18000
+Charge générée : 1500/18000
+Charge générée : 1550/18000
+Charge générée : 1600/18000
+Charge générée : 1650/18000
+Charge générée : 1700/18000
+Charge générée : 1750/18000
+Charge générée : 1800/18000
+Charge générée : 1850/18000
+Charge générée : 1900/18000
+Charge générée : 1950/18000
+Charge générée : 2000/18000
+Charge générée : 2050/18000
+Charge générée : 2100/18000
+Charge générée : 2150/18000
+Charge générée : 2200/18000
+Charge générée : 2250/18000
+Charge générée : 2300/18000
+Charge générée : 2350/18000
+Charge générée : 2400/18000
+Charge générée : 2450/18000
+Charge générée : 2500/18000
+Charge générée : 2550/18000
+Charge générée : 2600/18000
+Charge générée : 2650/18000
+Charge générée : 2700/18000
+Charge générée : 2750/18000
+Charge générée : 2800/18000
+Charge générée : 2850/18000
+Charge générée : 2900/18000
+Charge générée : 2950/18000
+Charge générée : 3000/18000
+Charge générée : 3050/18000
+Charge générée : 3100/18000
+Charge générée : 3150/18000
+Charge générée : 3200/18000
+Charge générée : 3250/18000
+Charge générée : 3300/18000
+Charge générée : 3350/18000
+Charge générée : 3400/18000
+Charge générée : 3450/18000
+Charge générée : 3500/18000
+Charge générée : 3550/18000
+Charge générée : 3600/18000
+Charge générée : 3650/18000
+Charge générée : 3700/18000
+Charge générée : 3750/18000
+Charge générée : 3800/18000
+Charge générée : 3850/18000
+Charge générée : 3900/18000
+Charge générée : 3950/18000
+Charge générée : 4000/18000
+Charge générée : 4050/18000
+Charge générée : 4100/18000
+Charge générée : 4150/18000
+Charge générée : 4200/18000
+Charge générée : 4250/18000
+Charge générée : 4300/18000
+Charge générée : 4350/18000
+Charge générée : 4400/18000
+Charge générée : 4450/18000
+Charge générée : 4500/18000
+Charge générée : 4550/18000
+Charge générée : 4600/18000
+Charge générée : 4650/18000
+Charge générée : 4700/18000
+Charge générée : 4750/18000
+Charge générée : 4800/18000
+Charge générée : 4850/18000
+Charge générée : 4900/18000
+Charge générée : 4950/18000
+Charge générée : 5000/18000
+Charge générée : 5050/18000
+Charge générée : 5100/18000
+Charge générée : 5150/18000
+Charge générée : 5200/18000
+Charge générée : 5250/18000
+Charge générée : 5300/18000
+Charge générée : 5350/18000
+Charge générée : 5400/18000
+Charge générée : 5450/18000
+Charge générée : 5500/18000
+Charge générée : 5550/18000
+Charge générée : 5600/18000
+Charge générée : 5650/18000
+Charge générée : 5700/18000
+Charge générée : 5750/18000
+Charge générée : 5800/18000
+Charge générée : 5850/18000
+Charge générée : 5900/18000
+Charge générée : 5950/18000
+Charge générée : 6000/18000
+Charge générée : 6050/18000
+Charge générée : 6100/18000
+Charge générée : 6150/18000
+Charge générée : 6200/18000
+Charge générée : 6250/18000
+Charge générée : 6300/18000
+Charge générée : 6350/18000
+Charge générée : 6400/18000
+Charge générée : 6450/18000
+Charge générée : 6500/18000
+Charge générée : 6550/18000
+Charge générée : 6600/18000
+Charge générée : 6650/18000
+Charge générée : 6700/18000
+Charge générée : 6750/18000
+Charge générée : 6800/18000
+Charge générée : 6850/18000
+Charge générée : 6900/18000
+Charge générée : 6950/18000
+Charge générée : 7000/18000
+Charge générée : 7050/18000
+Charge générée : 7100/18000
+Charge générée : 7150/18000
+Charge générée : 7200/18000
+Charge générée : 7250/18000
+Charge générée : 7300/18000
+Charge générée : 7350/18000
+Charge générée : 7400/18000
+Charge générée : 7450/18000
+Charge générée : 7500/18000
+Charge générée : 7550/18000
+Charge générée : 7600/18000
+Charge générée : 7650/18000
+Charge générée : 7700/18000
+Charge générée : 7750/18000
+Charge générée : 7800/18000
+Charge générée : 7850/18000
+Charge générée : 7900/18000
+Charge générée : 7950/18000
+Charge générée : 8000/18000
+Charge générée : 8050/18000
+Charge générée : 8100/18000
+Charge générée : 8150/18000
+Charge générée : 8200/18000
+Charge générée : 8250/18000
+Charge générée : 8300/18000
+Charge générée : 8350/18000
+Charge générée : 8400/18000
+Charge générée : 8450/18000
+Charge générée : 8500/18000
+Charge générée : 8550/18000
+Charge générée : 8600/18000
+Charge générée : 8650/18000
+Charge générée : 8700/18000
+Charge générée : 8750/18000
+Charge générée : 8800/18000
+Charge générée : 8850/18000
+Charge générée : 8900/18000
+Charge générée : 8950/18000
+Charge générée : 9000/18000
+Charge générée : 9050/18000
+Charge générée : 9100/18000
+Charge générée : 9150/18000
+Charge générée : 9200/18000
+Charge générée : 9250/18000
+Charge générée : 9300/18000
+Charge générée : 9350/18000
+Charge générée : 9400/18000
+Charge générée : 9450/18000
+Charge générée : 9500/18000
+Charge générée : 9550/18000
+Charge générée : 9600/18000
+Charge générée : 9650/18000
+Charge générée : 9700/18000
+Charge générée : 9750/18000
+Charge générée : 9800/18000
+Charge générée : 9850/18000
+Charge générée : 9900/18000
+Charge générée : 9950/18000
+Charge générée : 10000/18000
+Charge générée : 10050/18000
+Charge générée : 10100/18000
+Charge générée : 10150/18000
+Charge générée : 10200/18000
+Charge générée : 10250/18000
+Charge générée : 10300/18000
+Charge générée : 10350/18000
+Charge générée : 10400/18000
+Charge générée : 10450/18000
+Charge générée : 10500/18000
+Charge générée : 10550/18000
+Charge générée : 10600/18000
+Charge générée : 10650/18000
+Charge générée : 10700/18000
+Charge générée : 10750/18000
+Charge générée : 10800/18000
+Charge générée : 10850/18000
+Charge générée : 10900/18000
+Charge générée : 10950/18000
+Charge générée : 11000/18000
+Charge générée : 11050/18000
+Charge générée : 11100/18000
+Charge générée : 11150/18000
+Charge générée : 11200/18000
+Charge générée : 11250/18000
+Charge générée : 11300/18000
+Charge générée : 11350/18000
+Charge générée : 11400/18000
+Charge générée : 11450/18000
+Charge générée : 11500/18000
+Charge générée : 11550/18000
+Charge générée : 11600/18000
+Charge générée : 11650/18000
+Charge générée : 11700/18000
+Charge générée : 11750/18000
+Charge générée : 11800/18000
+Charge générée : 11850/18000
+Charge générée : 11900/18000
+Charge générée : 11950/18000
+Charge générée : 12000/18000
+Charge générée : 12050/18000
+Charge générée : 12100/18000
+Charge générée : 12150/18000
+Charge générée : 12200/18000
+Charge générée : 12250/18000
+Charge générée : 12300/18000
+Charge générée : 12350/18000
+Charge générée : 12400/18000
+Charge générée : 12450/18000
+Charge générée : 12500/18000
+Charge générée : 12550/18000
+Charge générée : 12600/18000
+Charge générée : 12650/18000
+Charge générée : 12700/18000
+Charge générée : 12750/18000
+Charge générée : 12800/18000
+Charge générée : 12850/18000
+Charge générée : 12900/18000
+Charge générée : 12950/18000
+Charge générée : 13000/18000
+Charge générée : 13050/18000
+Charge générée : 13100/18000
+Charge générée : 13150/18000
+Charge générée : 13200/18000
+Charge générée : 13250/18000
+Charge générée : 13300/18000
+Charge générée : 13350/18000
+Charge générée : 13400/18000
+Charge générée : 13450/18000
+Charge générée : 13500/18000
+Charge générée : 13550/18000
+Charge générée : 13600/18000
+Charge générée : 13650/18000
+Charge générée : 13700/18000
+Charge générée : 13750/18000
+Charge générée : 13800/18000
+Charge générée : 13850/18000
+Charge générée : 13900/18000
+Charge générée : 13950/18000
+Charge générée : 14000/18000
+Charge générée : 14050/18000
+Charge générée : 14100/18000
+Charge générée : 14150/18000
+Charge générée : 14200/18000
+Charge générée : 14250/18000
+Charge générée : 14300/18000
+Charge générée : 14350/18000
+Charge générée : 14400/18000
+Charge générée : 14450/18000
+Charge générée : 14500/18000
+Charge générée : 14550/18000
+Charge générée : 14600/18000
+Charge générée : 14650/18000
+Charge générée : 14700/18000
+Charge générée : 14750/18000
+Charge générée : 14800/18000
+Charge générée : 14850/18000
+Charge générée : 14900/18000
+Charge générée : 14950/18000
+Charge générée : 15000/18000
+Charge générée : 15050/18000
+Charge générée : 15100/18000
+Charge générée : 15150/18000
+Charge générée : 15200/18000
+Charge générée : 15250/18000
+Charge générée : 15300/18000
+Charge générée : 15350/18000
+Charge générée : 15400/18000
+Charge générée : 15450/18000
+Charge générée : 15500/18000
+Charge générée : 15550/18000
+Charge générée : 15600/18000
+Charge générée : 15650/18000
+Charge générée : 15700/18000
+Charge générée : 15750/18000
+Charge générée : 15800/18000
+Charge générée : 15850/18000
+Charge générée : 15900/18000
+Charge générée : 15950/18000
+Charge générée : 16000/18000
+Charge générée : 16050/18000
+Charge générée : 16100/18000
+Charge générée : 16150/18000
+Charge générée : 16200/18000
+Charge générée : 16250/18000
+Charge générée : 16300/18000
+Charge générée : 16350/18000
+Charge générée : 16400/18000
+Charge générée : 16450/18000
+Charge générée : 16500/18000
+Charge générée : 16550/18000
+Charge générée : 16600/18000
+Charge générée : 16650/18000
+Charge générée : 16700/18000
+Charge générée : 16750/18000
+Charge générée : 16800/18000
+Charge générée : 16850/18000
+Charge générée : 16900/18000
+Charge générée : 16950/18000
+Charge générée : 17000/18000
+Charge générée : 17050/18000
+Charge générée : 17100/18000
+Charge générée : 17150/18000
+Charge générée : 17200/18000
+Charge générée : 17250/18000
+Charge générée : 17300/18000
+Charge générée : 17350/18000
+Charge générée : 17400/18000
+Charge générée : 17450/18000
+Charge générée : 17500/18000
+Charge générée : 17550/18000
+Charge générée : 17600/18000
+Charge générée : 17650/18000
+Charge générée : 17700/18000
+Charge générée : 17750/18000
+Charge générée : 17800/18000
+Charge générée : 17850/18000
+Charge générée : 17900/18000
+Charge générée : 17950/18000
+Charge générée : 18000/18000
+
+Génération terminée.
+Temps génération           : 30.008 s
+TPS offert                  : 599.84
+
+Attente de la fin des broadcasts RPC...
+
+Transactions soumises      : 18000/18000
+Erreurs nonce               : 0
+Erreurs RPC                 : 0
+
+============================================================
+                PHASE 2 : DRAINAGE
+============================================================
+
+Transactions à surveiller : 18000
+Confirmations : 8721/18000 | Restantes : 9279
+Confirmations : 10013/18000 | Restantes : 7987
+Confirmations : 11628/18000 | Restantes : 6372
+Confirmations : 12920/18000 | Restantes : 5080
+Confirmations : 13889/18000 | Restantes : 4111
+Confirmations : 14535/18000 | Restantes : 3465
+Confirmations : 15181/18000 | Restantes : 2819
+Confirmations : 15827/18000 | Restantes : 2173
+Confirmations : 16150/18000 | Restantes : 1850
+Confirmations : 16796/18000 | Restantes : 1204
+Confirmations : 17119/18000 | Restantes : 881
+Confirmations : 17442/18000 | Restantes : 558
+Confirmations : 17637/18000 | Restantes : 363
+Confirmations : 17765/18000 | Restantes : 235
+Confirmations : 18000/18000 | Restantes : 0
+
+============================================================
+                    RESULTATS
+============================================================
+
+Palier cible              : 600 TPS
+Durée demandée            : 30 s
+Transactions demandées    : 18000
+Transactions soumises     : 18000
+Transactions réussies     : 18000
+Transactions échouées     : 0
+Taux de réussite          : 100.00 %
+
+--------------- DEBIT ----------------
+TPS offert                : 599.84
+TPS confirmé             : 158.83
+TPS confirmation/drain   : 257.05
+
+--------------- TEMPS ----------------
+Temps génération          : 30.008 s
+Temps drainage            : 70.025 s
+Temps total               : 113.326 s
+
+--------------- LATENCE --------------
+Min                       : 40415.00 ms
+P50                       : 46939.00 ms
+Moyenne                   : 53161.49 ms
+P95                       : 78473.00 ms
+P99                       : 83373.01 ms
+Max                       : 83501.00 ms
+
+--------------- GAS ------------------
+Gas min                   : 184974
+Gas moyen                 : 185016.57
+Gas max                   : 185022
+
+--------------- BLOCS ----------------
+Blocs utilisés            : 56
+Transactions/bloc         : 321.43
+
+--------------- ERREURS --------------
+Erreurs RPC               : 0
+Erreurs nonce             : 0
+Timeouts                  : 0
+Max broadcasts simultanés : 20
+
+============================================================
+                    FIN DU TEST
+============================================================
+
+CSV global       : benchmark-600TPS.csv
+CSV détaillé     : benchmark-600TPS-details.csv
+

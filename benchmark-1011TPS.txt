@@ -1,0 +1,107 @@
+◇ injected env (2) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+
+============================================================
+        BENCHMARK 2MUB V3 - PERFORMANCE
+============================================================
+
+Target TPS              : 10
+Durée                   : 30 secondes
+Transactions prévues   : 300
+Warm-up                 : 0 secondes
+Max RPC in-flight       : 200
+Nombre sponsors         : 20
+Gas limit               : 250000
+Fichier CSV             : benchmark-10TPS.csv
+
+Comptes disponibles     : 50
+Sponsors utilisés       : 20
+
+Déploiement du contrat...
+Contrat déployé         : 0x38a024C0b412B9d1db8BC398140D00F5Af3093D4
+
+Enregistrement des sponsors...
+20 sponsors enregistrés.
+
+============================================================
+                 GÉNÉRATION DE CHARGE
+============================================================
+
+
+Erreur transaction 200:
+Transaction nonce too low. Expected nonce to be at least 255 but got 254.
+
+Erreur transaction 205:
+Transaction nonce too low. Expected nonce to be at least 256 but got 255.
+
+Erreur transaction 212:
+Transaction nonce too low. Expected nonce to be at least 257 but got 255.
+
+Erreur transaction 228:
+Transaction nonce too low. Expected nonce to be at least 257 but got 256.
+
+Erreur transaction 232:
+Transaction nonce too low. Expected nonce to be at least 257 but got 256.
+
+Charge générée          : 300 transactions
+Temps génération        : 29.904 s
+Débit génération réel   : 10.03 TPS
+
+Génération terminée.
+Attente des confirmations...
+
+
+============================================================
+                    RESULTATS
+============================================================
+
+Palier cible              : 10 TPS
+Durée demandée            : 30 s
+Transactions demandées    : 300
+Transactions soumises     : 291
+Transactions réussies     : 291
+Transactions échouées     : 9
+Taux de réussite          : 97.00 %
+
+TPS offertes              : 10.03 TPS
+TPS soumises              : 9.73 TPS
+TPS confirmées            : 9.67 TPS
+
+Temps génération          : 29.904 s
+Temps drainage            : 0.190 s
+Temps total               : 30.094 s
+
+--------------- LATENCE ----------------
+Soumission RPC moyenne   : 37.2 ms
+Min                       : 97.0 ms
+P50                       : 1170.0 ms
+Moyenne                   : 1151.9 ms
+P95                       : 2022.0 ms
+P99                       : 2501.1 ms
+Max                       : 2764.0 ms
+Confirmation après RPC   : 1114.6 ms
+
+--------------- GAS --------------------
+Gas min                   : 184986
+Gas moyen                 : 185017
+Gas max                   : 185022
+
+--------------- BLOCS ------------------
+Blocs utilisés            : 15
+Transactions/bloc         : 19.40
+Intervalle moyen/bloc     : 2.00 s
+
+--------------- RPC --------------------
+Erreurs RPC               : 9
+Max RPC in-flight observé: 22
+
+--------------- SATURATION -------------
+Ratio débit confirmé/offert : 96.39 %
+Saturation détectée          : OUI
+
+Résultats CSV enregistrés : benchmark-10TPS.csv
+
+============================================================
+Benchmark terminé.
+============================================================
+
